@@ -1,0 +1,13 @@
+.red {
+  background-color: red !important;
+  height : 2em;
+  width : 4em;
+  border : 1px solid blue;
+  border-radius : 6px;
+}
+.blue {
+  background-color: blue !important;
+}
+.blue .search-header {
+  background-color: green !important;
+}

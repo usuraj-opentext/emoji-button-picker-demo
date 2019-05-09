@@ -1,0 +1,12 @@
+<div style="max-width: 500px; display: inline-block;">
+  <input #inputEl type="text" [(ngModel)]="inputText">
+</div>
+<emoji-picker
+  [(model)]="inputText" 
+  [inputClass]="'red'"
+  [closeAfterSelection]="true" 
+  style="display: inline-block;"
+  (click)="openPopup()" 
+  (setPopupAction)="setPopupAction($event)" 
+  [inputElement]="inputEl">
+</emoji-picker>
