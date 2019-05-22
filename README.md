@@ -1,4 +1,4 @@
-# NgEmojiPickerDemo
+# NgEmojiButtonPickerDemo
 
 Demo project for: [ng-emoji-button-picker]
 
